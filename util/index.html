@@ -10,7 +10,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- font-awasome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- SEO -->
     <meta name="author" content="Ceren Köse" />
@@ -23,27 +29,69 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+      <!-- external css -->
+  <link rel="stylesheet" href="style.css" />
   </head>
 
-   <!-- external css -->
-    <link rel="stylesheet" href="style.css">
-   
+  <body data-bs-spy="scroll" data-bs-target="#navbar_id">
+    <noscript>Bu browser JavaScript'i desteklemiyor.</noscript>
+    <!-- start codes -->
 
-  <!-- start code -->
-   <!-- <h1 class="text-primary">Tutorial</h1> -->
-  <!-- end code  -->
-  <body>
-    <header>
-      <!-- place navbar here -->
-    </header>
-   
-    <main> 
-      <i class="fa-regular fa-comment"></i>
-    
-    </main>
-    <footer>
-      <!-- place footer here -->
-    </footer>
+    <!-- start nav codes -->
+
+      <nav  id="navbar_id" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+        <div class="container"> <!--   container-fluid -->
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-blogger"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Arama için.." aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- end nav codes -->
+
+    <!-- start header codes -->
+    <header id="header_id"></header>
+    <!-- end header codes -->
+
+    <!-- start main codes -->
+    <main id="main_id"></main>
+    <!-- end main codes -->
+
+    <!-- stars footer codes -->
+    <footer id="footer_id"></footer>
+    <!-- end footer codes -->
+
+     <!-- end codes -->
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
