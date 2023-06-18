@@ -1,3 +1,82 @@
-*{
+/* Project One Page
+ Author   : Ceren Köse
+ Date     : 18/06/2023
+ Version  : v.1
+*/
+/*######################*/
+/* Root */
+/*######################*/
+/* Common Property */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: monospace;
+  line-height: 1.2;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img:hover {
+  opacity: 0.8;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.8);
+  transition: 3s all;
+  cursor: pointer;
+}
+i {
+  font-size: 1.5rem;
+}
+.my_clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.fSize1 {
+  font-size: 1rem;
+}
+/* my special Size */
+.fSize2 {
+  font-size: 2rem;
+}
+.fSize3 {
+  font-size: 3rem;
+}
+.fSize4 {
+  font-size: 4rem;
+}
+
+
+/* line-clamp */
+.line-clamp5 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+/*######################*/
+/* Header */
+header{
+background-image: url(../img/header.jpg);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: cover;
+z-index: -1;
+height: 80vh;
+padding-top: 4rem;
+
 }
